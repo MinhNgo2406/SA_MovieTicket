@@ -1,0 +1,55 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "MovieService";
+
+package movie;
+
+service MovieGrpc {
+  // --- Movie ---
+  rpc GetMovieById (MovieRequest) returns (MovieReply);
+  rpc GetAllMovies (Empty) returns (stream MovieReply);
+
+  // --- Cinema & Showtime ---
+  rpc GetCinemas (Empty) returns (stream CinemaReply);
+  rpc GetShowtimesByMovie (MovieRequest) returns (stream ShowtimeReply);
+
+  // --- Review ---
+  rpc GetReviewsByMovie (MovieRequest) returns (stream ReviewReply);
+}
+
+message Empty {}
+
+message MovieRequest {
+  int32 id = 1;
+}
+
+message MovieReply {
+  int32 id = 1;
+  string title = 2;
+  string image = 3;
+  double rating = 4;
+  int32 duration = 5;
+  string description = 6;
+}
+
+message CinemaReply {
+  int32 id = 1;
+  string name = 2;
+  string address = 3;
+  string city = 4;
+}
+
+message ShowtimeReply {
+  int32 id = 1;
+  string start_time = 2;
+  string room_name = 3;
+  string cinema_name = 4;
+}
+
+message ReviewReply {
+  int32 id = 1;
+  string comment = 2;
+  int32 rating = 3;
+  string created_at = 4;
+  int32 user_id = 5;
+}

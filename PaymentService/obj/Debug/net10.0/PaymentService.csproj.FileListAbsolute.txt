@@ -1,0 +1,8 @@
+C:\Users\ADMIN\Downloads\MovieTicket\PaymentService\obj\Debug\net10.0\PaymentService.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Downloads\MovieTicket\PaymentService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\ADMIN\Downloads\MovieTicket\PaymentService\obj\Debug\net10.0\PaymentService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Downloads\MovieTicket\PaymentService\obj\Debug\net10.0\PaymentService.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Downloads\MovieTicket\PaymentService\obj\Debug\net10.0\PaymentService.AssemblyInfo.cs
+C:\Users\ADMIN\Downloads\MovieTicket\PaymentService\obj\Debug\net10.0\PaymentService.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Downloads\MovieTicket\PaymentService\obj\Debug\net10.0\PaymentService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Downloads\MovieTicket\PaymentService\obj\Debug\net10.0\PaymentService.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,8 @@
+C:\Users\ADMIN\Downloads\MovieTicket\UserService\obj\Debug\net10.0\UserService.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Downloads\MovieTicket\UserService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\ADMIN\Downloads\MovieTicket\UserService\obj\Debug\net10.0\UserService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Downloads\MovieTicket\UserService\obj\Debug\net10.0\UserService.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Downloads\MovieTicket\UserService\obj\Debug\net10.0\UserService.AssemblyInfo.cs
+C:\Users\ADMIN\Downloads\MovieTicket\UserService\obj\Debug\net10.0\UserService.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Downloads\MovieTicket\UserService\obj\Debug\net10.0\UserService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Downloads\MovieTicket\UserService\obj\Debug\net10.0\UserService.MvcApplicationPartsAssemblyInfo.cache

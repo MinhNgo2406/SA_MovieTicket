@@ -1,0 +1,1250 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\data\\bookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\models\\showtimeseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\events\\paymentsuccessevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\events\\paymentconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\movieservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E83C59-D08E-46D9-BB3F-D4493DF9AEFF}|..\\PaymentService\\PaymentService.csproj|c:\\users\\admin\\downloads\\movieticket\\paymentservice\\paymentservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\movieticket.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:movieticket.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\movieticket.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:movieticket.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\bookingservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E4CC11-1DF2-4BE6-9A07-E5859A250AC3}|..\\UserService\\UserService.csproj|c:\\users\\admin\\downloads\\movieticket\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\payment\\bookingsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\payment\\bookingsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\payment\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\payment\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E4CC11-1DF2-4BE6-9A07-E5859A250AC3}|..\\UserService\\UserService.csproj|c:\\users\\admin\\downloads\\movieticket\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E4CC11-1DF2-4BE6-9A07-E5859A250AC3}|..\\UserService\\UserService.csproj|c:\\users\\admin\\downloads\\movieticket\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E4CC11-1DF2-4BE6-9A07-E5859A250AC3}|..\\UserService\\UserService.csproj|c:\\users\\admin\\downloads\\movieticket\\userservice\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E4CC11-1DF2-4BE6-9A07-E5859A250AC3}|..\\UserService\\UserService.csproj|c:\\users\\admin\\downloads\\movieticket\\userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E4CC11-1DF2-4BE6-9A07-E5859A250AC3}|..\\UserService\\UserService.csproj|c:\\users\\admin\\downloads\\movieticket\\userservice\\userservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E83C59-D08E-46D9-BB3F-D4493DF9AEFF}|..\\PaymentService\\PaymentService.csproj|c:\\users\\admin\\downloads\\movieticket\\paymentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E83C59-D08E-46D9-BB3F-D4493DF9AEFF}|..\\PaymentService\\PaymentService.csproj|c:\\users\\admin\\downloads\\movieticket\\paymentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E83C59-D08E-46D9-BB3F-D4493DF9AEFF}|..\\PaymentService\\PaymentService.csproj|c:\\users\\admin\\downloads\\movieticket\\paymentservice\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E83C59-D08E-46D9-BB3F-D4493DF9AEFF}|..\\PaymentService\\PaymentService.csproj|c:\\users\\admin\\downloads\\movieticket\\paymentservice\\data\\paymentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E83C59-D08E-46D9-BB3F-D4493DF9AEFF}|..\\PaymentService\\PaymentService.csproj|c:\\users\\admin\\downloads\\movieticket\\paymentservice\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27EF17D6-BAAD-4B00-8FA1-1DDF42D0A579}|..\\BookingService\\BookingService.csproj|c:\\users\\admin\\downloads\\movieticket\\bookingservice\\bookingservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\services\\moviegrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\protos\\movie.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\data\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\models\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\controllers\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:controllers\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\seat\\seatselection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\seat\\seatselection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\movie\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\movie\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA75165-8F65-4781-B0E8-918A89C95254}|..\\MovieService\\MovieService.csproj|c:\\users\\admin\\downloads\\movieticket\\movieservice\\movieservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\models\\moviebookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:models\\moviebookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\protos\\movie.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:protos\\movie.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\areas\\admin\\views\\admin\\editshowtime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:areas\\admin\\views\\admin\\editshowtime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\areas\\admin\\views\\admin\\createshowtime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:areas\\admin\\views\\admin\\createshowtime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\areas\\admin\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:areas\\admin\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\areas\\admin\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:areas\\admin\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\areas\\admin\\views\\admin\\showtimes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:areas\\admin\\views\\admin\\showtimes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\areas\\admin\\views\\admin\\movies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:areas\\admin\\views\\admin\\movies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\payment\\processing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\payment\\processing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\payment\\paymentfailed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\payment\\paymentfailed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|c:\\users\\admin\\downloads\\movieticket\\movieticket\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6A21C01-F0AF-F8EC-9772-76FCD8A4FF80}|MovieTicket.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.313\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 28,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowtimeSeat.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Models\\ShowtimeSeat.cs",
+              "RelativeDocumentMoniker": "..\\BookingService\\Models\\ShowtimeSeat.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Models\\ShowtimeSeat.cs",
+              "RelativeToolTip": "..\\BookingService\\Models\\ShowtimeSeat.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T10:10:01.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T09:49:14.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T09:49:05.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\UserService\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\appsettings.json",
+              "RelativeToolTip": "..\\UserService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T09:24:51.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\UserService\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\Program.cs",
+              "RelativeToolTip": "..\\UserService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:24:50.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "..\\UserService\\Data\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "..\\UserService\\Data\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:24:04.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserService",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "..\\UserService\\UserService.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\UserService.csproj",
+              "RelativeToolTip": "..\\UserService\\UserService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-01T09:23:27.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\UserService\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\Models\\User.cs",
+              "RelativeToolTip": "..\\UserService\\Models\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:23:10.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserService.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "..\\UserService\\UserService.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\UserService\\UserService.csproj",
+              "RelativeToolTip": "..\\UserService\\UserService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-01T09:22:41.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookingService.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\BookingService.csproj",
+              "RelativeDocumentMoniker": "..\\BookingService\\BookingService.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\BookingService.csproj",
+              "RelativeToolTip": "..\\BookingService\\BookingService.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-01T09:07:54.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovieService.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\MovieService.csproj",
+              "RelativeDocumentMoniker": "..\\MovieService\\MovieService.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\MovieService.csproj",
+              "RelativeToolTip": "..\\MovieService\\MovieService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-01T09:02:46.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\PaymentService\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\Program.cs",
+              "RelativeToolTip": "..\\PaymentService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:00:41.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\PaymentService\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\appsettings.json",
+              "RelativeToolTip": "..\\PaymentService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T09:00:38.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "..\\PaymentService\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "..\\PaymentService\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:57:51.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PaymentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\Data\\PaymentDbContext.cs",
+              "RelativeDocumentMoniker": "..\\PaymentService\\Data\\PaymentDbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\Data\\PaymentDbContext.cs",
+              "RelativeToolTip": "..\\PaymentService\\Data\\PaymentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:57:30.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "..\\PaymentService\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\Models\\Payment.cs",
+              "RelativeToolTip": "..\\PaymentService\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:54:29.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentService.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\PaymentService.csproj",
+              "RelativeDocumentMoniker": "..\\PaymentService\\PaymentService.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\PaymentService\\PaymentService.csproj",
+              "RelativeToolTip": "..\\PaymentService\\PaymentService.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-01T08:51:27.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaymentConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Events\\PaymentConsumer.cs",
+              "RelativeDocumentMoniker": "..\\BookingService\\Events\\PaymentConsumer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Events\\PaymentConsumer.cs",
+              "RelativeToolTip": "..\\BookingService\\Events\\PaymentConsumer.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAEoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:16:06.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentSuccessEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Events\\PaymentSuccessEvent.cs",
+              "RelativeDocumentMoniker": "..\\BookingService\\Events\\PaymentSuccessEvent.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Events\\PaymentSuccessEvent.cs",
+              "RelativeToolTip": "..\\BookingService\\Events\\PaymentSuccessEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:15:40.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\BookingService\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Program.cs",
+              "RelativeToolTip": "..\\BookingService\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:14:14.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BookingService.http",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\BookingService.http",
+              "RelativeDocumentMoniker": "..\\BookingService\\BookingService.http",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\BookingService.http",
+              "RelativeToolTip": "..\\BookingService\\BookingService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-05-01T08:14:01.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\BookingService\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\appsettings.json",
+              "RelativeToolTip": "..\\BookingService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T08:13:16.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "..\\BookingService\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Models\\Ticket.cs",
+              "RelativeToolTip": "..\\BookingService\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:13:09.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Models\\Seat.cs",
+              "RelativeDocumentMoniker": "..\\BookingService\\Models\\Seat.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Models\\Seat.cs",
+              "RelativeToolTip": "..\\BookingService\\Models\\Seat.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:13:07.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "..\\BookingService\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Models\\Order.cs",
+              "RelativeToolTip": "..\\BookingService\\Models\\Order.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:13:02.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Data\\BookingDbContext.cs",
+              "RelativeDocumentMoniker": "..\\BookingService\\Data\\BookingDbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\BookingService\\Data\\BookingDbContext.cs",
+              "RelativeToolTip": "..\\BookingService\\Data\\BookingDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:12:56.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MovieTicket.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\MovieTicket.csproj",
+              "RelativeDocumentMoniker": "MovieTicket.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\MovieTicket.csproj",
+              "RelativeToolTip": "MovieTicket.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-01T08:04:45.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T07:16:57.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Payment\\Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\Success.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Payment\\Success.cshtml",
+              "RelativeToolTip": "Views\\Payment\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T07:02:31.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Payment\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Payment\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Payment\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T06:43:02.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T06:40:34.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Models\\Cinema.cs",
+              "RelativeDocumentMoniker": "..\\MovieService\\Models\\Cinema.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Models\\Cinema.cs",
+              "RelativeToolTip": "..\\MovieService\\Models\\Cinema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T14:35:43.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "..\\MovieService\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Models\\Review.cs",
+              "RelativeToolTip": "..\\MovieService\\Models\\Review.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T14:35:32.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MovieService",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\MovieService.csproj",
+              "RelativeDocumentMoniker": "..\\MovieService\\MovieService.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\MovieService.csproj",
+              "RelativeToolTip": "..\\MovieService\\MovieService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-30T13:48:17.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "_UserLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_UserLayout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_UserLayout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-30T07:08:34.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "movie.proto",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Protos\\movie.proto",
+              "RelativeDocumentMoniker": "Protos\\movie.proto",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Protos\\movie.proto",
+              "RelativeToolTip": "Protos\\movie.proto",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-04-30T04:57:35.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Showtime.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Models\\Showtime.cs",
+              "RelativeDocumentMoniker": "..\\MovieService\\Models\\Showtime.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Models\\Showtime.cs",
+              "RelativeToolTip": "..\\MovieService\\Models\\Showtime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:26:42.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "..\\MovieService\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Models\\Room.cs",
+              "RelativeToolTip": "..\\MovieService\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:26:23.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "..\\MovieService\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Models\\Movie.cs",
+              "RelativeToolTip": "..\\MovieService\\Models\\Movie.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:26:15.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MovieGrpcService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Services\\MovieGrpcService.cs",
+              "RelativeDocumentMoniker": "..\\MovieService\\Services\\MovieGrpcService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Services\\MovieGrpcService.cs",
+              "RelativeToolTip": "..\\MovieService\\Services\\MovieGrpcService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAmwEwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:20:05.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "movie.proto",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Protos\\movie.proto",
+              "RelativeDocumentMoniker": "..\\MovieService\\Protos\\movie.proto",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Protos\\movie.proto",
+              "RelativeToolTip": "..\\MovieService\\Protos\\movie.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-04-30T04:18:56.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MovieService\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Program.cs",
+              "RelativeToolTip": "..\\MovieService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:18:14.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\MovieService\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\appsettings.json",
+              "RelativeToolTip": "..\\MovieService\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-30T04:17:20.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MovieDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Data\\MovieDbContext.cs",
+              "RelativeDocumentMoniker": "..\\MovieService\\Data\\MovieDbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieService\\Data\\MovieDbContext.cs",
+              "RelativeToolTip": "..\\MovieService\\Data\\MovieDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:16:52.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Models\\Room.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Models\\Room.cs",
+              "RelativeToolTip": "Models\\Room.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T19:09:54.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EditShowtime.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\EditShowtime.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Admin\\EditShowtime.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\EditShowtime.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Admin\\EditShowtime.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwGcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T18:42:15.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T18:42:02.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CreateShowtime.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\CreateShowtime.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Admin\\CreateShowtime.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\CreateShowtime.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Admin\\CreateShowtime.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T18:38:21.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T18:38:11.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "PaymentFailed.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Payment\\PaymentFailed.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\PaymentFailed.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Payment\\PaymentFailed.cshtml",
+              "RelativeToolTip": "Views\\Payment\\PaymentFailed.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAIBJwFIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T07:25:10.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAEMBAAAAAAAAAAAnwJgBAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T07:15:59.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T17:10:36.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:31:12.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SeatController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\SeatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SeatController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\SeatController.cs",
+              "RelativeToolTip": "Controllers\\SeatController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAuwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:31:10.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:30:58.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:30:41.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAASwBcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:43:06.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Models\\Movie.cs",
+              "RelativeToolTip": "Models\\Movie.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:32:37.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Movie\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movie\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Movie\\Details.cshtml",
+              "RelativeToolTip": "Views\\Movie\\Details.cshtml",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAANcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T15:05:53.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookingSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Payment\\BookingSuccess.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\BookingSuccess.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Payment\\BookingSuccess.cshtml",
+              "RelativeToolTip": "Views\\Payment\\BookingSuccess.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T15:05:51.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T08:18:01.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "MovieBookingContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Models\\MovieBookingContext.cs",
+              "RelativeDocumentMoniker": "Models\\MovieBookingContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Models\\MovieBookingContext.cs",
+              "RelativeToolTip": "Models\\MovieBookingContext.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T07:36:30.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MovieTicket",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\MovieTicket.csproj",
+              "RelativeDocumentMoniker": "MovieTicket.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\MovieTicket.csproj",
+              "RelativeToolTip": "MovieTicket.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-25T09:27:23.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SeatSelection.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Seat\\SeatSelection.cshtml",
+              "RelativeDocumentMoniker": "Views\\Seat\\SeatSelection.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Seat\\SeatSelection.cshtml",
+              "RelativeToolTip": "Views\\Seat\\SeatSelection.cshtml",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAuwNoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:25:20.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:25:10.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:25:06.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Processing.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Payment\\Processing.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\Processing.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Payment\\Processing.cshtml",
+              "RelativeToolTip": "Views\\Payment\\Processing.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwEIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:25:02.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:25:01.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:24:59.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwDcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:24:52.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Movies.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\Movies.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Admin\\Movies.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\Movies.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Admin\\Movies.cshtml",
+              "ViewState": "AgIAAKMAAAAAAAAAAIBJwK8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:24:18.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T09:24:09.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAwwDMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T09:24:06.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:18:38.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:18:36.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.313\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.313\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.313\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.313\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAvwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-25T09:16:12.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T09:15:29.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Showtimes.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\Showtimes.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Admin\\Showtimes.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\MovieTicket\\MovieTicket\\Areas\\Admin\\Views\\Admin\\Showtimes.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Admin\\Showtimes.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAIBJwGwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T09:06:42.631Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

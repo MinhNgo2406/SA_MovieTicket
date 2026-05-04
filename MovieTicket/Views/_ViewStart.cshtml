@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Http
+
+@{
+    var username = Context.Session.GetString("Username");
+
+    if (string.IsNullOrEmpty(username))
+    {
+        Layout = "_Layout";
+    }
+    else
+    {
+        Layout = "_UserLayout";
+    }
+}

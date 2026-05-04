@@ -1,0 +1,97 @@
+﻿@model MovieTicket.Models.Showtime
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="card border-0 shadow-sm rounded-4 p-4">
+
+    <h3 class="fw-bold mb-4">
+        🎬 Add Showtime
+    </h3>
+
+    <form enctype="multipart/form-data"
+          method="post">
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                Movie
+            </label>
+
+            <select name="MovieId"
+                    class="form-select">
+
+                <option value="">
+                    -- Select Movie --
+                </option>
+
+                @foreach (var movie in ViewBag.Movies)
+                {
+                    <option value="@movie.Id">
+                        @movie.Title
+                    </option>
+                }
+
+            </select>
+
+        </div>
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                Room
+            </label>
+
+            <select name="RoomId"
+                    class="form-select">
+
+                <option value="">
+                    -- Select Room --
+                </option>
+
+                @foreach (var room in ViewBag.Rooms)
+                {
+                    <option value="@room.Id">
+                        @room.Name
+                    </option>
+                }
+
+            </select>
+
+        </div>
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                Start Time
+            </label>
+
+            <input name="StartTime"
+                   type="datetime-local"
+                   class="form-control" />
+
+        </div>
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                End Time
+            </label>
+
+            <input name="EndTime"
+                   type="datetime-local"
+                   class="form-control" />
+
+        </div>
+
+        <button type="submit"
+                class="btn btn-dark rounded-3 px-4">
+
+            Add Showtime
+
+        </button>
+
+    </form>
+
+</div>

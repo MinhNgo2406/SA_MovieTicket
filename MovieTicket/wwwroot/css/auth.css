@@ -1,0 +1,47 @@
+/* wwwroot/css/auth.css */
+body {
+  background-color: #f4f5f7; /* Màu nền xám nhạt */
+  height: 100vh; /* Chiều cao bằng 100% màn hình */
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px; /* Độ rộng của form */
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #3b66f5; /* Đổi màu viền khi click vào input */
+}
+
+.btn-primary {
+  background-color: #3661eb; /* Màu xanh của nút */
+  border: none;
+  font-weight: 400;
+}
+
+.btn-primary:hover {
+  background-color: #2a4bce;
+}
+
+.text-link {
+  color: #3661eb;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.form-label {
+  font-size: 0.95rem;
+  color: #333;
+}

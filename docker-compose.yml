@@ -1,0 +1,98 @@
+services:
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
+    container_name: sql-server
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourPassword123!
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql-data:/var/opt/mssql
+
+  db-init:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
+    container_name: db-init
+    depends_on:
+      - sql-server
+    volumes:
+      - ./init.sql:/init.sql
+    command: >
+      /bin/bash -c "
+      sleep 20s &&
+      /opt/mssql-tools18/bin/sqlcmd -S sql-server -U sa -P 'YourPassword123!' -C -i /init.sql
+      "
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  movie-service:
+    build: ./MovieService
+    platform: linux/amd64
+    container_name: movie-service
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__MovieConnection=Server=sql-server;Database=MovieBooking;User Id=sa;Password=YourPassword123!;TrustServerCertificate=True
+    depends_on:
+      - sql-server
+
+  user-service:
+    build: ./UserService
+    platform: linux/amd64
+    container_name: user-service
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__UserConnection=Server=sql-server;Database=MovieBooking;User Id=sa;Password=YourPassword123!;TrustServerCertificate=True
+    depends_on:
+      - sql-server
+
+  booking-service:
+    build: ./BookingService
+    platform: linux/amd64
+    container_name: booking-service
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__BookingConnection=Server=sql-server;Database=MovieBooking;User Id=sa;Password=YourPassword123!;TrustServerCertificate=True
+      - EventBus__HostName=rabbitmq
+    depends_on:
+      - sql-server
+      - rabbitmq
+
+  payment-service:
+    build: ./PaymentService
+    platform: linux/amd64
+    container_name: payment-service
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__PaymentConnection=Server=sql-server;Database=MovieBooking;User Id=sa;Password=YourPassword123!;TrustServerCertificate=True
+      - EventBus__HostName=rabbitmq
+    depends_on:
+      - sql-server
+      - rabbitmq
+
+  frontend:
+    build: ./MovieTicket
+    platform: linux/amd64
+    container_name: frontend
+    ports:
+      - "5001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__MyDB=Server=sql-server;Database=MovieBooking;User Id=sa;Password=YourPassword123!;TrustServerCertificate=True
+    depends_on:
+      - movie-service
+      - sql-server
+
+volumes:
+  sql-data:

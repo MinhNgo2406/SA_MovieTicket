@@ -1,0 +1,231 @@
+﻿@model List<MovieTicket.Models.Showtime>
+
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Showtime Scheduling";
+}
+
+<style>
+    .table-card {
+        background: white;
+        border-radius: 18px;
+        padding: 24px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .movie-img {
+        width: 65px;
+        height: 85px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .movie-title {
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .movie-desc {
+        font-size: 0.85rem;
+        color: #6b7280;
+    }
+
+    .hall-badge {
+        background: #eef2ff;
+        color: #4338ca;
+        padding: 6px 14px;
+        border-radius: 999px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .time-badge {
+        background: #111827;
+        color: white;
+        padding: 6px 14px;
+        border-radius: 999px;
+        font-size: 0.8rem;
+    }
+
+    .btn-action {
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .btn-edit {
+        background: #fef3c7;
+        color: #d97706;
+    }
+
+    .btn-delete {
+        background: #fee2e2;
+        color: #dc2626;
+    }
+
+    .table th {
+        color: #6b7280;
+        font-size: 0.85rem;
+        padding: 18px;
+        border-bottom: 1px solid #f1f5f9;
+    }
+
+    .table td {
+        padding: 18px;
+        vertical-align: middle;
+        border-bottom: 1px solid #f8fafc;
+    }
+</style>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+
+    <div>
+        <h3 class="fw-bold m-0">
+            🎬 Showtime Scheduling
+        </h3>
+
+        <p class="text-muted mb-0">
+            Manage all movie showtimes
+        </p>
+    </div>
+
+    <a href="/Admin/Admin/CreateShowtime"
+       class="btn btn-dark rounded-3 px-4 py-2">
+
+        <i class="bi bi-plus-lg me-1"></i>
+        Add Showtime
+
+    </a>
+
+</div>
+
+<div class="table-card">
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success rounded-3 shadow-sm mb-3">
+            @TempData["Success"]
+        </div>
+    }
+    <table class="table table-borderless m-0">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Movie</th>
+                <th>Room</th>
+                <th>Date</th>
+                <th>Start</th>
+                <th>End</th>
+                <th>Available Seats</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach (var show in Model)
+            {
+                var totalSeats = show.Room?.Seats?.Count() ?? 0;
+
+                var bookedSeats = show.Tickets?.Count() ?? 0;
+
+                var availableSeats = totalSeats - bookedSeats;
+
+                <tr>
+
+                    <td class="text-muted fw-medium">
+                        @show.Id
+                    </td>
+
+                    <td>
+
+                        <div class="d-flex align-items-center gap-3">
+
+                            <img src="~/img/@show.Movie?.Image"
+                                 class="movie-img">
+
+                            <div>
+
+                                <div class="movie-title">
+                                    @show.Movie?.Title
+                                </div>
+
+                                <div class="movie-desc">
+                                    ⭐ @show.Movie?.Rating / 10
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </td>
+
+                    <td>
+
+                        <span class="hall-badge">
+                            🎦 @show.Room?.Name
+                        </span>
+
+                    </td>
+
+                    <td>
+                        @show.StartTime?.ToString("dd/MM/yyyy")
+                    </td>
+
+                    <td>
+
+                        <span class="time-badge">
+                            @show.StartTime?.ToString("HH:mm")
+                        </span>
+
+                    </td>
+
+                    <td>
+
+                        <span class="time-badge">
+                            @show.EndTime?.ToString("HH:mm")
+                        </span>
+
+                    </td>
+
+                    <td>
+
+                        <span class="fw-medium">
+                            @availableSeats / @totalSeats
+                        </span>
+
+                    </td>
+
+                    <td>
+
+                        <div class="d-flex gap-2">
+
+                            <a href="/Admin/Admin/EditShowtime/@show.Id"
+                               asp-route-id="@show.Id"
+                               class="btn btn-action btn-edit">
+
+                                <i class="bi bi-pencil-fill"></i>
+
+                            </a>
+
+                            <a href="/Admin/Admin/DeleteShowtime/@show.Id"
+                               class="btn btn-action btn-delete"
+                               onclick="return confirm('Delete this showtime?')">
+
+                                <i class="bi bi-trash-fill"></i>
+
+                            </a>
+
+                        </div>
+
+                    </td>
+
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+</div>

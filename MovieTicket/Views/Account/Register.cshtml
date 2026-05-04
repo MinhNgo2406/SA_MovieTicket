@@ -1,0 +1,71 @@
+@model MovieTicket.Models.User
+
+@{
+
+    ViewData["Title"] = "Register";
+}
+<body>
+
+    <div class="container mt-5">
+
+        <div class="card shadow p-4 mx-auto" style="max-width:500px;">
+
+            <h3 class="mb-4 text-center">Create Account</h3>
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger">
+                    @ViewBag.Error
+                </div>
+            }
+
+            <form asp-action="Register" method="post">
+
+                <div class="mb-3">
+                    <label>Name</label>
+                    <input asp-for="Name"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="mb-3">
+                    <label>Email</label>
+                    <input asp-for="Email"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="mb-3">
+                    <label>Password</label>
+                    <input asp-for="Password"
+                           type="password"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="mb-3">
+                    <label>Confirm Password</label>
+                    <input type="password"
+                           name="confirmPassword"
+                           class="form-control"
+                           required />
+                </div>
+
+                <button type="submit"
+                        class="btn btn-primary w-100">
+                    Register
+                </button>
+
+            </form>
+
+            <div class="text-center mt-3">
+                <a asp-action="Login">
+                    Đã có tài khoản? Đăng nhập
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>

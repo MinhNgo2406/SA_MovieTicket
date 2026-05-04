@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Danh sách phim";
+}
+
+@* LƯU Ý QUAN TRỌNG: 
+   Hãy đảm bảo namespace 'MovieService' khớp với namespace được sinh ra từ file .proto của bạn. 
+   Nếu file .proto của bạn không đặt namespace, hãy kiểm tra lại file gRPC C# được sinh ra để lấy đúng namespace.
+*@
+@model IEnumerable<MovieService.MovieReply>
+
+<div class="container mt-5 pb-5">
+    <div class="mx-auto mb-5 position-relative" style="max-width: 600px;">
+        <form asp-controller="Home" asp-action="Index" method="get" class="d-flex">
+            <input type="text"
+                   name="search"
+                   class="form-control me-2"
+                   placeholder="Tìm kiếm phim..."
+                   value="@Context.Request.Query["search"]">
+            <button type="submit" class="btn btn-dark">
+                <i class="bi bi-search"></i> Search
+            </button>
+        </form>
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row g-4">
+            @foreach (var movie in Model)
+            {
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden d-flex flex-column">
+                        
+                        <img src="~/img/@movie.Image"
+                             class="card-img-top"
+                             style="height: 320px; object-fit: cover;"
+                             alt="@movie.Title"
+                             onerror="this.src='/img/default.jpg';"> 
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="fw-bold mb-2">@movie.Title</h5>
+                            <p class="text-muted small mb-2">
+                                @movie.Duration phút &nbsp;•&nbsp; ⭐ @movie.Rating
+                            </p>
+                            <p class="text-secondary small flex-grow-1">
+                                @(string.IsNullOrEmpty(movie.Description) ? "Không có mô tả" : 
+                                  (movie.Description.Length > 90 ? movie.Description.Substring(0, 90) + "..." : movie.Description))
+                            </p>
+                            <a asp-controller="Movie"
+                               asp-action="Details"
+                               asp-route-id="@movie.Id"
+                               class="btn btn-dark mt-auto rounded-3">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="text-center mt-5">
+            <h3 class="text-muted">Không tìm thấy bộ phim nào!</h3>
+            <p>Vui lòng kiểm tra lại Database hoặc kết nối gRPC.</p>
+        </div>
+    }
+</div>

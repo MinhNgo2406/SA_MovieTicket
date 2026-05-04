@@ -1,0 +1,431 @@
+﻿@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Dashboard";
+}
+
+<style>
+    .dashboard-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #111827;
+    }
+
+    .dashboard-subtitle {
+        color: #6b7280;
+        font-size: 0.95rem;
+    }
+
+    .stat-card {
+        border-radius: 20px;
+        transition: all 0.25s ease;
+        overflow: hidden;
+    }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+        }
+
+    .stat-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+    }
+
+    .stat-label {
+        color: #6b7280;
+        font-size: 0.9rem;
+    }
+
+    .stat-value {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #111827;
+    }
+
+    .mini-card {
+        border-radius: 18px;
+        background: #f8fafc;
+    }
+
+    .movie-item img {
+        width: 55px;
+        height: 75px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .movie-item {
+        transition: 0.2s;
+        border-radius: 12px;
+    }
+
+        .movie-item:hover {
+            background: #f9fafb;
+        }
+
+    .table thead th {
+        color: #6b7280;
+        font-size: 0.8rem;
+        border-bottom: 1px solid #f1f5f9;
+    }
+
+    .table tbody td {
+        padding: 16px 8px;
+        vertical-align: middle;
+    }
+
+    .status-success {
+        background: #dcfce7;
+        color: #16a34a;
+        padding: 5px 12px;
+        border-radius: 999px;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .status-pending {
+        background: #fef3c7;
+        color: #d97706;
+        padding: 5px 12px;
+        border-radius: 999px;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .dashboard-card {
+        border-radius: 22px;
+    }
+</style>
+
+<div class="mb-4">
+    <h2 class="dashboard-title">Cinema Dashboard 🎬</h2>
+    <p class="dashboard-subtitle">
+        Quản lý hệ thống đặt vé phim và theo dõi hoạt động rạp chiếu.
+    </p>
+</div>
+
+<!-- STATISTICS -->
+<div class="row g-4 mb-4">
+
+    <!-- MOVIES -->
+    <div class="col-lg-3 col-md-6">
+        <div class="card border-0 shadow-sm stat-card p-4 h-100">
+
+            <div class="d-flex justify-content-between align-items-center mb-3">
+
+                <div class="stat-icon bg-primary-subtle text-primary">
+                    <i class="bi bi-film"></i>
+                </div>
+
+                <span class="badge bg-primary-subtle text-primary">
+                    Total
+                </span>
+
+            </div>
+
+            <div class="stat-value">
+                @ViewBag.TotalMovies
+            </div>
+
+            <div class="stat-label mt-1">
+                Total Movies
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CINEMAS -->
+    <div class="col-lg-3 col-md-6">
+        <div class="card border-0 shadow-sm stat-card p-4 h-100">
+
+            <div class="d-flex justify-content-between align-items-center mb-3">
+
+                <div class="stat-icon bg-success-subtle text-success">
+                    <i class="bi bi-building"></i>
+                </div>
+
+                <span class="badge bg-success-subtle text-success">
+                    Active
+                </span>
+
+            </div>
+
+            <div class="stat-value">
+                @ViewBag.TotalCinemas
+            </div>
+
+            <div class="stat-label mt-1">
+                Total Cinemas
+            </div>
+
+        </div>
+    </div>
+
+    <!-- TICKETS -->
+    <div class="col-lg-3 col-md-6">
+        <div class="card border-0 shadow-sm stat-card p-4 h-100">
+
+            <div class="d-flex justify-content-between align-items-center mb-3">
+
+                <div class="stat-icon bg-warning-subtle text-warning">
+                    <i class="bi bi-ticket-perforated"></i>
+                </div>
+
+                <span class="badge bg-warning-subtle text-warning">
+                    Sold
+                </span>
+
+            </div>
+
+            <div class="stat-value">
+                @ViewBag.TotalTickets
+            </div>
+
+            <div class="stat-label mt-1">
+                Tickets Sold
+            </div>
+
+        </div>
+    </div>
+
+    <!-- REVENUE -->
+    <div class="col-lg-3 col-md-6">
+        <div class="card border-0 shadow-sm stat-card p-4 h-100">
+
+            <div class="d-flex justify-content-between align-items-center mb-3">
+
+                <div class="stat-icon bg-danger-subtle text-danger">
+                    <i class="bi bi-cash-stack"></i>
+                </div>
+
+                <span class="badge bg-danger-subtle text-danger">
+                    Revenue
+                </span>
+
+            </div>
+
+            <div class="stat-value">
+                @String.Format("{0:N0}", ViewBag.TotalRevenue) đ
+            </div>
+
+            <div class="stat-label mt-1">
+                Total Revenue
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- SECOND ROW -->
+<div class="row g-4 mb-4">
+
+    <!-- RECENT MOVIES -->
+    <div class="col-lg-5">
+
+        <div class="card border-0 shadow-sm dashboard-card p-4 h-100">
+
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <h5 class="fw-bold mb-1">Newest Movies</h5>
+                    <small class="text-muted">
+                        Danh sách phim mới thêm
+                    </small>
+                </div>
+
+                <i class="bi bi-stars text-warning fs-5"></i>
+            </div>
+
+            @foreach (var movie in ViewBag.TopMovies)
+            {
+                <div class="d-flex align-items-center p-2 mb-2 movie-item">
+
+                    <img src="~/img/@movie.Image" class="me-3" />
+
+                    <div class="flex-grow-1">
+                        <div class="fw-semibold text-dark">
+                            @movie.Title
+                        </div>
+
+                        <small class="text-muted">
+                            @movie.BookingCount lượt đặt
+                        </small>
+                    </div>
+
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+    <!-- QUICK INFO -->
+    <div class="col-lg-7">
+
+        <div class="card border-0 shadow-sm dashboard-card p-4 h-100">
+
+            <div class="mb-4">
+                <h5 class="fw-bold mb-1">System Overview</h5>
+                <small class="text-muted">
+                    Tổng quan hoạt động hệ thống
+                </small>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="mini-card p-4">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="fw-semibold">Users</span>
+                            <i class="bi bi-people fs-4 text-primary"></i>
+                        </div>
+
+                        <h3 class="fw-bold">
+                            @ViewBag.TotalUsers
+                        </h3>
+
+                        <small class="text-muted">
+                            Registered accounts
+                        </small>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="mini-card p-4">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="fw-semibold">Showtimes</span>
+                            <i class="bi bi-calendar-event fs-4 text-success"></i>
+                        </div>
+
+                        <h3 class="fw-bold">
+                            @ViewBag.TotalShowtimes
+                        </h3>
+
+                        <small class="text-muted">
+                            Total schedules
+                        </small>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="mini-card p-4">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="fw-semibold">Rooms</span>
+                            <i class="bi bi-door-open fs-4 text-warning"></i>
+                        </div>
+
+                        <h3 class="fw-bold">
+                            @ViewBag.TotalRooms
+                        </h3>
+
+                        <small class="text-muted">
+                            Cinema rooms
+                        </small>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="mini-card p-4">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="fw-semibold">Seats</span>
+                            <i class="bi bi-grid-3x3-gap fs-4 text-danger"></i>
+                        </div>
+
+                        <h3 class="fw-bold">
+                            @ViewBag.TotalSeats
+                        </h3>
+
+                        <small class="text-muted">
+                            Available seats
+                        </small>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- RECENT BOOKINGS -->
+<div class="card border-0 shadow-sm dashboard-card p-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <div>
+            <h5 class="fw-bold mb-1">Recent Bookings</h5>
+            <small class="text-muted">
+                Các vé được đặt gần đây
+            </small>
+        </div>
+
+        <i class="bi bi-receipt fs-4 text-secondary"></i>
+
+    </div>
+
+    <div class="table-responsive">
+
+        <table class="table align-middle">
+
+            <thead>
+                <tr>
+                    <th>USER</th>
+                    <th>MOVIE</th>
+                    <th>SEAT</th>
+                    <th>PRICE</th>
+                    <th>STATUS</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @foreach (var t in ViewBag.RecentTickets)
+                {
+                    <tr>
+
+                        <td class="fw-semibold">
+                            @t.UserName
+                        </td>
+
+                        <td>
+                            @t.MovieName
+                        </td>
+
+                        <td>
+                            @t.SeatName
+                        </td>
+
+                        <td class="fw-semibold">
+                            @String.Format("{0:N0}", t.Price) đ
+                        </td>
+
+                        <td>
+                            <span class="status-success">
+                                Completed
+                            </span>
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>

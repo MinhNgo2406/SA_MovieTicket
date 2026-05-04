@@ -1,0 +1,67 @@
+@{
+    Layout = null; 
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Processing Status - MovieHub</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/auth.css" asp-append-version="true" />
+    
+    <style>
+        /* CSS tạo vòng xoay Loading giống thiết kế */
+        .custom-spinner {
+            width: 3.5rem;
+            height: 3.5rem;
+            border: 5px solid #e2e8f0; /* Màu vòng xám nhạt */
+            border-top-color: #1f2937; /* Màu mảng tối đang xoay */
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @@keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .processing-card {
+            max-width: 450px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card processing-card border-0 shadow-sm p-4 p-md-5 rounded-4 text-center">
+        
+        <div class="mb-4 mt-2">
+            <div class="custom-spinner"></div>
+        </div>
+
+        <h4 class="fw-medium mb-3">Processing your request</h4>
+        <p class="text-muted mb-2" style="font-size: 0.95rem; line-height: 1.6;">
+            Please do not refresh, we are securing your seat<br />via our messaging system.
+        </p>
+        
+    </div>
+
+
+    <script>
+        setTimeout(function() {
+            // Tạo tỉ lệ 50/50 ngẫu nhiên
+            const isSuccess = Math.random() > 0.5;
+
+            if (isSuccess) {
+                window.location.href = '/Payment/BookingSuccess';
+            } else {
+                window.location.href = '/Payment/PaymentFailed'; // Văng ra lỗi
+            }
+        }, 3000);
+    </script>
+</body>
+</html>

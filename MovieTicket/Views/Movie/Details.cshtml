@@ -1,0 +1,216 @@
+@{
+    ViewData["Title"] = "Chi tiết phim";
+}
+@model MovieTicket.Models.Movie
+
+<style>
+    .movie-poster-detail {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+
+    .movie-title {
+        font-size: 1.9rem;
+        font-weight: 700;
+    }
+
+    .movie-meta {
+        color: #6b7280;
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+    }
+
+    .movie-desc {
+        font-size: 0.95rem;
+        line-height: 1.7;
+        color: #6b7280;
+    }
+
+    .card {
+        border-radius: 18px;
+        background: #fff;
+    }
+
+    /* NOW SHOWING */
+    .now-showing-img {
+        width: 60px;
+        height: 85px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .hover-item {
+        transition: all 0.2s;
+    }
+
+        .hover-item:hover {
+            background: #f9fafb;
+        }
+
+    /* Sticky */
+    .sticky-card {
+        position: sticky;
+        top: 20px;
+    }
+
+    /* SHOWTIME */
+    .time-pill {
+        border: 1px solid #e5e7eb;
+        background: #fff;
+        color: #374151;
+        font-size: 0.85rem;
+        border-radius: 10px;
+        padding: 6px 14px;
+        transition: all 0.2s ease;
+    }
+
+        .time-pill:hover {
+            border-color: #2563eb;
+            color: #2563eb;
+            background: #f8fafc;
+        }
+
+    hr {
+        border-top: 1px solid #f1f5f9;
+    }
+
+    .btn-primary {
+        background: #2563eb;
+        border: none;
+        transition: all 0.2s;
+    }
+
+        .btn-primary:hover {
+            background: #1d4ed8;
+        }
+</style>
+
+<div class="container mt-4 pb-5">
+    <div class="row g-4 align-items-start">
+
+        <!-- LEFT SIDE -->
+        <div class="col-lg-8">
+
+            <!-- MOVIE DETAIL -->
+            <div class="card border-0 shadow-sm p-4 mb-4">
+                <div class="row g-4">
+
+                    <!-- IMAGE -->
+                    <div class="col-md-4">
+                        <img src="~/img/@Model.Image"
+                             class="movie-poster-detail"
+                             alt="@Model.Title">
+                    </div>
+
+                    <!-- CONTENT -->
+                    <div class="col-md-8">
+
+                        <h2 class="movie-title">@Model.Title</h2>
+
+                        <p class="movie-meta">
+                            @Model.Duration phút
+                            <i class="bi bi-star-fill text-warning"></i> @Model.Rating/10
+                        </p>
+                        <h6 class="fw-bold mt-3">Synopsis</h6> <p class="movie-desc"> @Model.Description </p>
+                        <!-- BUTTON -->
+                        <div class="mt-3">
+                            @if (ViewBag.FirstShowtimeId != null)
+                            {
+                                <a asp-controller="Seat"
+                                   asp-action="SeatSelection"
+                                   asp-route-showtimeId="@ViewBag.FirstShowtimeId"
+                                   class="btn btn-primary px-4 py-2 rounded-3 fw-semibold">
+
+                                    🎟️ Book Seat Now
+
+                                </a>
+                            }
+                            else
+                            {
+                                <button class="btn btn-secondary px-4 py-2 rounded-3" disabled>
+                                    Chưa có suất chiếu
+                                </button>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SHOWTIMES -->
+            <div class="card border-0 shadow-sm p-4">
+
+                <h5 class="fw-bold mb-4">Theaters & Showtimes</h5>
+
+                @{
+                    var grouped = ((IEnumerable<dynamic>)ViewBag.Showtimes)
+                    .GroupBy(x => x.CinemaName);
+                }
+
+                @foreach (var cinema in grouped)
+                {
+                    <div class="mb-4">
+
+                        <h6 class="fw-semibold mb-3">@cinema.Key</h6>
+
+                        <div class="d-flex flex-wrap gap-2">
+                            @foreach (var show in cinema)
+                            {
+                                <a asp-controller="Seat"
+                                   asp-action="SeatSelection"
+                                   asp-route-showtimeId="@show.Id"
+                                   class="time-pill text-decoration-none">
+
+                                    @show.StartTime.ToString("HH:mm")
+
+                                </a>
+                            }
+                        </div>
+
+                    </div>
+
+                    <hr />
+                }
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="col-lg-4">
+
+            <div class="card border-0 shadow-sm p-4 sticky-card">
+                <h5 class="fw-bold mb-4">Now Showing</h5>
+
+                @foreach (var m in ViewBag.NowShowing)
+                {
+                    <a asp-controller="Movie"
+                       asp-action="Details"
+                       asp-route-id="@m.Id"
+                       class="text-decoration-none text-dark">
+
+                        <div class="d-flex align-items-center mb-3 p-2 rounded-3 hover-item">
+
+                            <img src="~/img/@m.Image"
+                                 class="now-showing-img me-3"
+                                 alt="@m.Title">
+
+                            <div>
+                                <h6 class="fw-bold mb-1" style="font-size: 0.95rem;">
+                                    @m.Title
+                                </h6>
+
+                                <span class="text-muted" style="font-size: 0.85rem;">
+                                    <i class="bi bi-star-fill text-warning"></i> @m.Rating/10
+                                </span>
+                            </div>
+
+                        </div>
+                    </a>
+                }
+            </div>
+
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,276 @@
+@{
+    ViewData["Title"] = "Chọn Ghế";
+
+    var showtime = ViewBag.Showtime;
+    var seats = (IEnumerable<dynamic>)ViewBag.Seats;
+    var booked = (List<int>)ViewBag.BookedSeats;
+
+    var groupedSeats = seats
+        .GroupBy(s => s.RowName)
+        .OrderBy(g => g.Key);
+}
+
+<style>
+    .screen-bar {
+        background-color: #e2e8f0;
+        height: 35px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        color: #64748b;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+
+    .seat {
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        background-color: #e2e8f0;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+        .seat:hover:not(.occupied) {
+            background-color: #cbd5e1;
+        }
+
+        .seat.selected {
+            background-color: #111827;
+        }
+
+        .seat.occupied {
+            background-color: #94a3b8;
+            cursor: not-allowed;
+        }
+
+    .seat-row-label {
+        width: 20px;
+        text-align: center;
+        font-weight: 500;
+        color: #64748b;
+    }
+
+    .time-btn {
+        border: 1px solid #cbd5e1;
+        background: white;
+    }
+
+        .time-btn.active {
+            background-color: #111827;
+            color: white;
+        }
+
+    #btnPayment {
+        transition: all 0.3s;
+    }
+</style>
+
+<div class="container mt-4 pb-5">
+    <div class="row g-5">
+
+        <!-- LEFT -->
+        <div class="col-lg-5">
+
+            <h3 class="fw-bold mb-2">@showtime.MovieTitle</h3>
+
+            <p class="text-muted mb-4">
+                @showtime.Duration phút
+                &nbsp;•&nbsp;
+                @showtime.CinemaName
+            </p>
+
+            <h5 class="fw-bold mb-3">Select Showtime</h5>
+
+            <div class="row g-3 mb-5">
+                @foreach (var s in ViewBag.Showtimes)
+                {
+                    <div class="col-6">
+                        <a asp-controller="Seat"
+                           asp-action="SeatSelection"
+                           asp-route-showtimeId="@s.Id"
+                           class="btn time-btn w-100 py-2 rounded-3
+                               @(s.Id == showtime.Id ? "active" : "")">
+
+                            @s.StartTime.ToString("HH:mm")
+
+                        </a>
+                    </div>
+                }
+            </div>
+
+            <!-- Legend -->
+            <h5 class="fw-bold mb-3">Seat Legend</h5>
+
+            <div class="d-flex gap-4">
+                <div class="d-flex align-items-center gap-2">
+                    <div class="seat"></div>
+                    <span>Available</span>
+                </div>
+
+                <div class="d-flex align-items-center gap-2">
+                    <div class="seat selected"></div>
+                    <span>Selected</span>
+                </div>
+
+                <div class="d-flex align-items-center gap-2">
+                    <div class="seat occupied"></div>
+                    <span>Occupied</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="col-lg-7">
+
+            <div class="screen-bar">SCREEN</div>
+
+            <!-- SEAT MAP -->
+            <div class="d-flex flex-column gap-2 align-items-center mb-5">
+
+                @foreach (var row in groupedSeats)
+                {
+                    <div class="d-flex align-items-center gap-2">
+
+                        <span class="seat-row-label">@row.Key</span>
+
+                        @foreach (var seat in row.OrderBy(x => x.SeatNumber))
+                        {
+                            var isBooked = booked.Contains(seat.Id);
+                            var status = isBooked ? "occupied" : "";
+
+                            <div class="seat @status"
+                                 data-id="@seat.Id"
+                                 data-seat="@row.Key@seat.SeatNumber">
+                            </div>
+
+                            if (seat.SeatNumber == 2 || seat.SeatNumber == 10)
+                            {
+                                <div style="width:15px;"></div>
+                            }
+                        }
+
+                        <span class="seat-row-label">@row.Key</span>
+
+                    </div>
+                }
+
+            </div>
+
+            <hr class="mb-4">
+
+            <!-- SELECTED -->
+            <div class="d-flex justify-content-between mb-3">
+                <span>Selected Seats:</span>
+                <span id="selectedSeatsText">None</span>
+            </div>
+
+            <div class="d-flex justify-content-between mb-4">
+                <span>Total Price</span>
+                <span id="totalPrice">$0</span>
+            </div>
+            <form id="bookingForm"
+                  method="post"
+                  asp-controller="Seat"
+                  asp-action="CreateBooking">
+
+                <input type="hidden"
+                       name="showtimeId"
+                       value="@showtime.Id" />
+
+                <input type="hidden"
+                       id="selectedSeatIds"
+                       name="selectedSeatIds" />
+
+            </form>
+            <button type="button"
+                    id="btnPayment"
+                    class="btn w-100 py-3 rounded-3 text-secondary"
+                    style="background:#cbd5e1"
+                    disabled>
+                    Proceed to Payment
+            </button>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+
+               const ticketPrice = 100000;
+
+        let selectedSeats = [];
+        let selectedSeatIds = [];
+
+        document.querySelectorAll('.seat').forEach(seat => {
+
+            seat.addEventListener('click', function () {
+
+                if (this.classList.contains('occupied'))
+                    return;
+
+                this.classList.toggle('selected');
+
+                const seatName = this.dataset.seat;
+                const seatId = this.dataset.id;
+
+                if (this.classList.contains('selected')) {
+
+                    selectedSeats.push(seatName);
+                    selectedSeatIds.push(seatId);
+
+                } else {
+
+                    selectedSeats =
+                        selectedSeats.filter(x => x !== seatName);
+
+                    selectedSeatIds =
+                        selectedSeatIds.filter(x => x !== seatId);
+                }
+
+                updateUI();
+            });
+        });
+
+        function updateUI() {
+
+            document.getElementById('selectedSeatsText').innerText =
+                selectedSeats.length > 0
+                    ? selectedSeats.join(', ')
+                    : 'Chưa chọn';
+
+            let total =
+                selectedSeats.length * ticketPrice;
+
+            document.getElementById('totalPrice').innerText =
+                total.toLocaleString('vi-VN') + 'đ';
+
+            let btn = document.getElementById('btnPayment');
+
+            if (selectedSeats.length > 0) {
+
+                btn.disabled = false;
+                btn.style.background = '#111827';
+
+            } else {
+
+                btn.disabled = true;
+                btn.style.background = '#cbd5e1';
+            }
+        }
+
+        document.getElementById('btnPayment')
+            .addEventListener('click', function () {
+
+                document.getElementById('selectedSeatIds').value =
+                    selectedSeatIds.join(',');
+
+                document.getElementById('bookingForm').submit();
+            });
+
+    </script>
+}
