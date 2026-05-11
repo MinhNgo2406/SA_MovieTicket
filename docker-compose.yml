@@ -11,20 +11,6 @@ services:
     volumes:
       - sql-data:/var/opt/mssql
 
-  db-init:
-    image: mcr.microsoft.com/mssql/server:2022-latest
-    platform: linux/amd64
-    container_name: db-init
-    depends_on:
-      - sql-server
-    volumes:
-      - ./init.sql:/init.sql
-    command: >
-      /bin/bash -c "
-      sleep 20s &&
-      /opt/mssql-tools18/bin/sqlcmd -S sql-server -U sa -P 'YourPassword123!' -C -i /init.sql
-      "
-
   rabbitmq:
     image: rabbitmq:3-management
     container_name: rabbitmq
