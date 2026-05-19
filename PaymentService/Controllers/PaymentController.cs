@@ -29,7 +29,7 @@ namespace PaymentService.Controllers
             {
                 OrderId = request.OrderId,
                 Amount = request.Amount,
-                PaymentMethod = "Momo",
+                PaymentMethod = request.PaymentMethod,
                 Status = "Success",
                 TransactionId = Guid.NewGuid().ToString(),
                 PaymentDate = DateTime.Now
