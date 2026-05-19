@@ -402,4 +402,4 @@ INSERT INTO Review (UserId, MovieId, Rating, Comment, CreatedAt) VALUES
 (5,5,4,N'Hay',GETDATE());
 GO
 
-SELECT * FROM Payment;
+SELECT * FROM Payments;
