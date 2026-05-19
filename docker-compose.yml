@@ -47,7 +47,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_HTTP_PORTS=8080
-      - ConnectionStrings__BookingConnection=Server=sql-server;Database=MovieBooking;User Id=sa;Password=YourPassword123!;TrustServerCertificate=True
+      - ConnectionStrings__DefaultConnection=Server=sql-server;Database=MovieBooking;User Id=sa;Password=YourPassword123!;TrustServerCertificate=True
       - EventBus__HostName=rabbitmq
     depends_on:
       - sql-server
@@ -60,11 +60,13 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_HTTP_PORTS=8080
-      - ConnectionStrings__PaymentConnection=Server=sql-server;Database=MovieBooking;User Id=sa;Password=YourPassword123!;TrustServerCertificate=True
+      - ConnectionStrings__DefaultConnection=Server=sql-server;Database=MovieBooking;User Id=sa;Password=YourPassword123!;TrustServerCertificate=True
       - EventBus__HostName=rabbitmq
     depends_on:
       - sql-server
       - rabbitmq
+    ports:
+      - "5004:8080"
 
   frontend:
     build: ./MovieTicket

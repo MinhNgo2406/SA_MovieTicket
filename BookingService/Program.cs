@@ -1,14 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using BookingService.Data;
-
+using BookingService.Services;
 var builder = WebApplication.CreateBuilder(args);
 
-// ??ng ký Service
+// ??ng kï¿½ Service
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHostedService<PaymentConsumer>();
 
-// C?u hình Database
+// C?u hï¿½nh Database
 builder.Services.AddDbContext<BookingDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

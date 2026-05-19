@@ -117,6 +117,18 @@ CREATE TABLE Payment (
     FOREIGN KEY (OrderId) REFERENCES [Order](Id)
 );
 
+CREATE TABLE Payments (
+    Id int IDENTITY(1,1) PRIMARY KEY,
+    OrderId int,
+    Amount DECIMAL(10,2),
+    PaymentMethod NVARCHAR(50),
+    TransactionId NVARCHAR(100),
+    Status NVARCHAR(50),
+    PaymentDate DATETIME,
+    FOREIGN KEY (OrderId) REFERENCES [Order](Id)
+);
+
+
 CREATE TABLE Review (
     Id int IDENTITY(1,1) PRIMARY KEY ,
     UserId int,
@@ -389,3 +401,5 @@ INSERT INTO Review (UserId, MovieId, Rating, Comment, CreatedAt) VALUES
 (4,4,5,N'Đỉnh cao',GETDATE()),
 (5,5,4,N'Hay',GETDATE());
 GO
+
+SELECT * FROM Payment;

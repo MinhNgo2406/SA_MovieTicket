@@ -9,7 +9,7 @@ namespace PaymentService.RabbitMQ
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "localhost"
+                HostName = "rabbitmq"
             };
 
             using var connection = factory.CreateConnection();
@@ -17,7 +17,7 @@ namespace PaymentService.RabbitMQ
             using var channel = connection.CreateModel();
 
             channel.QueueDeclare(
-                queue: "payment_queue",
+                queue: "payment-success",
                 durable: false,
                 exclusive: false,
                 autoDelete: false,
@@ -27,7 +27,7 @@ namespace PaymentService.RabbitMQ
 
             channel.BasicPublish(
                 exchange: "",
-                routingKey: "payment_queue",
+                routingKey: "payment-success",
                 basicProperties: null,
                 body: body);
         }

@@ -2,7 +2,7 @@
 using PaymentService.Data;
 using PaymentService.Models;
 using PaymentService.RabbitMQ;
-
+using System.Text.Json;
 namespace PaymentService.Controllers
 {
     [ApiController]
@@ -36,7 +36,14 @@ namespace PaymentService.Controllers
             // publish event
             var publisher = new RabbitMQPublisher();
 
-            publisher.Publish($"ORDER_PAID:{orderId}");
+            var paymentEvent = new
+            {
+                OrderId = orderId,
+                Amount = amount,
+                TransactionId = payment.TransactionId
+            };
+
+            publisher.Publish(JsonSerializer.Serialize(paymentEvent));
 
             return Ok(new
             {
