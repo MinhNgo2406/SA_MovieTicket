@@ -22,7 +22,7 @@ namespace BookingService.Services
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "localhost"
+                HostName = "rabbitmq"
             };
 
             var connection =

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kNah/I96TA0=",
+  "dgSpecHash": "qfnsV1yWIWE=",
   "success": true,
-  "projectFilePath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/demo/TEST/SA_MovieTicket/PaymentService/PaymentService.csproj",
+  "projectFilePath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/PaymentService/PaymentService.csproj",
   "expectedPackageFiles": [
     "/Users/minhngo/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/minhngo/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
