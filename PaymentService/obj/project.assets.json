@@ -5115,11 +5115,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/PaymentService/PaymentService.csproj",
+      "projectUniqueName": "/Users/minhngo/Documents/Stuff/Study/SA/seminar_SA/Demo/SA_MovieTicket/PaymentService/PaymentService.csproj",
       "projectName": "PaymentService",
-      "projectPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/PaymentService/PaymentService.csproj",
+      "projectPath": "/Users/minhngo/Documents/Stuff/Study/SA/seminar_SA/Demo/SA_MovieTicket/PaymentService/PaymentService.csproj",
       "packagesPath": "/Users/minhngo/.nuget/packages/",
-      "outputPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/PaymentService/obj/",
+      "outputPath": "/Users/minhngo/Documents/Stuff/Study/SA/seminar_SA/Demo/SA_MovieTicket/PaymentService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/minhngo/.nuget/NuGet/NuGet.Config"

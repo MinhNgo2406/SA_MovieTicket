@@ -4525,11 +4525,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/MovieService/MovieService.csproj",
+      "projectUniqueName": "/Users/minhngo/Documents/Stuff/Study/SA/seminar_SA/Demo/SA_MovieTicket/MovieService/MovieService.csproj",
       "projectName": "MovieService",
-      "projectPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/MovieService/MovieService.csproj",
+      "projectPath": "/Users/minhngo/Documents/Stuff/Study/SA/seminar_SA/Demo/SA_MovieTicket/MovieService/MovieService.csproj",
       "packagesPath": "/Users/minhngo/.nuget/packages/",
-      "outputPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/MovieService/obj/",
+      "outputPath": "/Users/minhngo/Documents/Stuff/Study/SA/seminar_SA/Demo/SA_MovieTicket/MovieService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/minhngo/.nuget/NuGet/NuGet.Config"

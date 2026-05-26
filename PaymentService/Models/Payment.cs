@@ -1,5 +1,7 @@
 ﻿namespace PaymentService.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 
+[Table("Payments")]
 public partial class Payment
 {
     public int Id { get; set; }
