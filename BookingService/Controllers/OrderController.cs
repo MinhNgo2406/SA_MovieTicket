@@ -25,5 +25,21 @@ namespace BookingService.Controllers
 
             return Ok(order);
         }
+        [HttpPost]
+        public IActionResult CreateOrder()
+        {
+            var order = new Order
+            {
+                UserId = 1,
+                TotalAmount = 300000,
+                Status = "Pending",
+                CreatedAt = DateTime.Now
+            };
+
+                _context.Orders.Add(order);
+                _context.SaveChanges();
+
+                return Ok(order);
+        }
     }
 }
