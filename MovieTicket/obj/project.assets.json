@@ -4265,11 +4265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/MovieTicket/MovieTicket.csproj",
+      "projectUniqueName": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/MovieTicket/MovieTicket.csproj",
       "projectName": "MovieTicket",
-      "projectPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/MovieTicket/MovieTicket.csproj",
+      "projectPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/MovieTicket/MovieTicket.csproj",
       "packagesPath": "/Users/minhngo/.nuget/packages/",
-      "outputPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/MovieTicket/obj/",
+      "outputPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/MovieTicket/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/minhngo/.nuget/NuGet/NuGet.Config"

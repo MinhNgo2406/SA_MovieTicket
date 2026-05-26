@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/BookingService/BookingService.csproj": {}
+    "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/BookingService/BookingService.csproj": {}
   },
   "projects": {
-    "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/BookingService/BookingService.csproj": {
+    "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/BookingService/BookingService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/BookingService/BookingService.csproj",
+        "projectUniqueName": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/BookingService/BookingService.csproj",
         "projectName": "BookingService",
-        "projectPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/BookingService/BookingService.csproj",
+        "projectPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/BookingService/BookingService.csproj",
         "packagesPath": "/Users/minhngo/.nuget/packages/",
-        "outputPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/BookingService/obj/",
+        "outputPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/BookingService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/minhngo/.nuget/NuGet/NuGet.Config"

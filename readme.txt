@@ -1,5 +1,6 @@
 xoá toàn bộ cũ: docker-compose down -v
 chạy lại lên:
+docker compose up rabbitmq
 docker compose up --build 
 docker-compose up --build -d
 

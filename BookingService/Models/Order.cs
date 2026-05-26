@@ -1,4 +1,6 @@
 ﻿namespace BookingService.Models;
+using System.ComponentModel.DataAnnotations.Schema;
+[Table("Order")]
 
 public partial class Order
 {

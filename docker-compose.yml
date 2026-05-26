@@ -52,6 +52,8 @@ services:
     depends_on:
       - sql-server
       - rabbitmq
+    ports:
+      - "5002:8080"
 
   payment-service:
     build: ./PaymentService

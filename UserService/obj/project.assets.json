@@ -5078,11 +5078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/UserService/UserService.csproj",
+      "projectUniqueName": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/UserService/UserService.csproj",
       "projectName": "UserService",
-      "projectPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/UserService/UserService.csproj",
+      "projectPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/UserService/UserService.csproj",
       "packagesPath": "/Users/minhngo/.nuget/packages/",
-      "outputPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/SA_MovieTicket/UserService/obj/",
+      "outputPath": "/Users/minhngo/Documents/Stuff/Study/seminar_SA/NewDemo/MORE/SA_MovieTicket/UserService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/minhngo/.nuget/NuGet/NuGet.Config"
